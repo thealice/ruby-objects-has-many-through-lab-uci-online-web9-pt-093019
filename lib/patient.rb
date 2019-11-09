@@ -1,4 +1,5 @@
 class Patient
+
   attr_accessor :name
 
   @@all = []
@@ -15,5 +16,5 @@ class Patient
   def save
     @@all << self
   end
-  
+
 end
